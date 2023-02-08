@@ -1,19 +1,32 @@
-# :mortar_board: Git for R User <img src="img/presentation-logo.png" height="120" align="right"/>
+<h1 align="center">
+  <br>
+  <a href="https://frbcesab.github.io/git-for-r-user"><img src="img/presentation-logo.png" alt="Logo" width="200"></a>
+  <br>
+  Git for R User
+  <br>
+</h1>
 
+<h4 align="center">A gentle introduction to git for R user <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
 
+<p align="center">
+  <a href="https://choosealicense.com/licenses/mit/">
+    <img src="https://forthebadge.com/generator/?plabel=License&slabel=MIT&pbg=%23595959&sbg=%23D7AF23" alt="License MIT">
+  </a>
+</p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/)
+<p align="center">
+  <a href="#how-to-contribute">How to contribute</a> •
+  <a href="#citation">Citation</a> •
+  <a href="#code-of-conduct">Code of Conduct</a>
+</p>
 
-
-
-Code used to create the online presentation **Git for R User** available at:
-[**frbcesab.github.io/git-for-r-user**](https://frbcesab.github.io/git-for-r-user)
+![screenshot](img/markdownify.gif)
 
 
 <br>
 
 
-### How to contribute
+## How to contribute
 
 First install required R packages listed in the 
 [`DESCRIPTION`](https://github.com/frbcesab/git-for-r-user/blob/main/DESCRIPTION)

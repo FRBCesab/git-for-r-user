@@ -32,7 +32,7 @@
 
 ## Content
 
-This online presentation, available at <https://frbcesab.github.io/git-for-r-user>
+This online presentation, available at [**frbcesab.github.io/git-for-r-user**](https://frbcesab.github.io/git-for-r-user)
 provides an introduction to [git](https://git-scm.com/), [GitHub](https://github.com) 
 and [GitLab](https://about.gitlab.com/) using [RStudio](https://posit.co/download/rstudio-desktop/).
 
@@ -76,9 +76,9 @@ remotes::install_deps()
 
 - Edit the 
 [`index.qmd`](https://github.com/frbcesab/git-for-r-user/blob/main/index.Rmd) 
-file.
+file
 
-- Render HTML presentation
+### Render HTML presentation
 
 ```r
 ## Render HTML presentation ----

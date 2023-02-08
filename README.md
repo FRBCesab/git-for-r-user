@@ -1,16 +1,18 @@
 <h1 align="center">
   <br>
-  <a href="https://frbcesab.github.io/git-for-r-user"><img src="img/presentation-logo.png" alt="Logo" width="200"></a>
+  <a href="https://frbcesab.github.io/git-for-r-user"><img src="img/git-logo.png" alt="Logo" width="200"></a>
   <br>
   Git for R User
   <br>
 </h1>
 
-<h4 align="center">A gentle introduction to git for R user <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
+<h4 align="center">A gentle introduction to git for R user
+<br>
+<a href="https://frbcesab.github.io/git-for-r-user" target="_blank"><b>Slides</b></a>.</h4>
 
 <p align="center">
   <a href="https://choosealicense.com/licenses/mit/">
-    <img src="https://forthebadge.com/generator/?plabel=License&slabel=MIT&pbg=%23595959&sbg=%23D7AF23" alt="License MIT">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License MIT">
   </a>
 </p>
 

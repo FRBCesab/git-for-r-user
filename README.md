@@ -2,22 +2,25 @@
   <br>
   <a href="https://frbcesab.github.io/git-for-r-user"><img src="img/git-logo.png" alt="Logo" width="200"></a>
   <br>
-  Git for R User
+  Git for R Users
   <br>
 </h1>
 
-<h4 align="center">A gentle introduction to git for R user
+<h4 align="center">A gentle introduction to git for R users
 <br>
-<a href="https://frbcesab.github.io/git-for-r-user" target="_blank"><b>Slides</b></a>.</h4>
+<a href="https://frbcesab.github.io/git-for-r-user" target="_blank"><b>frbcesab.github.io/git-for-r-user</b></a></h4>
 
 <p align="center">
+  <a href="https://quarto.org/">
+    <img src="https://img.shields.io/badge/Made%20with-Quarto-blue.svg" alt="Quarto">
+  </a>
   <a href="https://choosealicense.com/licenses/mit/">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License MIT">
   </a>
 </p>
 
 <p align="center">
-  <a href="#how-to-contribute">How to contribute</a> •
+  <a href="#contribute">Contribute</a> •
   <a href="#citation">Citation</a> •
   <a href="#code-of-conduct">Code of Conduct</a>
 </p>
@@ -28,7 +31,7 @@
 <br>
 
 
-## How to contribute
+## Contribute
 
 First install required R packages listed in the 
 [`DESCRIPTION`](https://github.com/frbcesab/git-for-r-user/blob/main/DESCRIPTION)

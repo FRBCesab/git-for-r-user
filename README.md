@@ -1,9 +1,7 @@
 <h1 align="center">
   <br>
   <a href="https://frbcesab.github.io/git-for-r-user"><img src="img/git-logo.png" alt="Logo" width="200"></a>
-  <br>
-  Git for R Users
-  <br>
+  <br>Git for R Users<br>
 </h1>
 
 <h4 align="center">A gentle introduction to git for R users
@@ -20,12 +18,23 @@
 </p>
 
 <p align="center">
+  <a href="#content">Content</a> •
   <a href="#contribute">Contribute</a> •
   <a href="#citation">Citation</a> •
   <a href="#code-of-conduct">Code of Conduct</a>
 </p>
 
-![screenshot](img/markdownify.gif)
+![screenshot](img/screenshot.png)
+
+
+<br>
+
+
+## Content
+
+This online presentation, available at <https://frbcesab.github.io/git-for-r-user>
+provides an introduction to [git](https://git-scm.com/), [GitHub](https://github.com) 
+and [GitLab](https://about.gitlab.com/) using [RStudio](https://posit.co/download/rstudio-desktop/).
 
 
 <br>
@@ -33,7 +42,27 @@
 
 ## Contribute
 
-First install required R packages listed in the 
+### System requirement
+
+- [R](https://cran.r-project.org/)
+- [RStudio](https://posit.co/download/rstudio-desktop/)
+- [Quarto](https://quarto.org/)
+
+### Edit slides
+
+- Clone this repository
+
+```sh
+## Using the SSH protocol ----
+git clone git@github.com:frbcesab/git-for-r-user.git
+
+## Using the HTTPS protocol ----
+git clone https://github.com/frbcesab/git-for-r-user.git
+```
+
+- Install required packages
+
+Required R packages are listed in the 
 [`DESCRIPTION`](https://github.com/frbcesab/git-for-r-user/blob/main/DESCRIPTION)
 file.
 
@@ -45,11 +74,11 @@ install.packages("remotes")
 remotes::install_deps()
 ```
 
-<br>
-
-Then, edit the 
+- Edit the 
 [`index.qmd`](https://github.com/frbcesab/git-for-r-user/blob/main/index.Rmd) 
-file. To update the `html` presentation, run: 
+file.
+
+- Render HTML presentation
 
 ```r
 ## Render HTML presentation ----
@@ -64,8 +93,7 @@ quarto::quarto_render("index.qmd")
 
 Please cite this presentation as:
 
-> Casajus N (2023) git-for-r-user: A gentle introduction to git for R user. 
-URL: <https://frbcesab.github.io/git-for-r-user>.
+> Casajus N (2023) A gentle introduction to git for R user. URL: <https://frbcesab.github.io/git-for-r-user>.
 
 
 <br>
@@ -73,7 +101,7 @@ URL: <https://frbcesab.github.io/git-for-r-user>.
 
 ## Code of Conduct
 
-Please note that the `git-for-r-user` project is released with a
+Please note that this project is released with a
 [Contributor Code of
 Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
 By contributing to this project, you agree to abide by its terms.

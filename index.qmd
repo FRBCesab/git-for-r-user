@@ -1,0 +1,31 @@
+---
+format:
+  revealjs:
+    logo: img/cesab-logo.png
+    footer: "A gentle introduction to git for R users"
+---
+
+<!-- Title slide -->
+
+<br>
+<br>
+
+:::: {.columns}
+
+::: {.column width="30%"}
+[](./img/git-logo.png)
+:::
+
+::: {.column width="70%"}
+## A gentle introduction to git for R users
+
+<br>
+
+##### Nicolas Casajus
+:::
+
+::::
+
+---
+
+Work in progress...

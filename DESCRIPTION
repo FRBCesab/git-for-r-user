@@ -1,0 +1,20 @@
+Package: git-for-r-user
+Type: Package
+Title: Presentation: Git for R User
+Version: 0.0.1
+Authors@R: c(
+    person(given   = "Nicolas",
+           family  = "Casajus",
+           role    = c("aut", "cre", "cph"),
+           email   = "nicolas.casajus@fondationbiodiversite.fr",
+           comment = c(ORCID = "0000-0002-5537-5294")))
+Description: A gentle introduction to 'git' for R user.
+URL: https://github.com/frbcesab/git-for-r-user
+BugReports: https://github.com/frbcesab/git-for-r-user/issues
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests:
+    knitr,
+    quarto

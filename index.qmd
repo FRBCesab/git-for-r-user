@@ -1,27 +1,61 @@
 ---
+from: markdown+emoji
 format:
   revealjs:
     logo: img/cesab-logo.png
-    footer: "A gentle introduction to git for R users"
+    footer: "<https://github.com/frbcesab/git-for-r-user/>"
+    smaller: false
+    theme: league
+engine: knitr
 ---
+
+```{css echo=FALSE}
+.zmaller {
+font-size: 14px;
+}
+.right {
+text-align: right;
+font-size: 18px;
+}
+```
 
 <!-- Title slide -->
 
+<br>
 <br>
 <br>
 
 :::: {.columns}
 
 ::: {.column width="30%"}
-[](./img/git-logo.png)
+![](./img/git-logo.png)
 :::
 
 ::: {.column width="70%"}
-## A gentle introduction to git for R users
 
-<br>
+## An introduction to git for R users {.smaller}
 
-##### Nicolas Casajus
+<hr />
+
+::: {.right}
+February 2023
+:::
+
+
+**Nicolas Casajus**
+
+::: {.zmaller}
+
+{{< fa user >}} &nbsp;&nbsp;[**Senior Data Scientist**](https://nicolascasajus.fr)
+
+{{< fa house >}} &nbsp;[**FRB-CESAB**](https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/)
+
+{{< fa envelope >}} &nbsp;&nbsp;[**nicolas.casajus@fondationbiodiversite.fr**](#)
+
+{{< fa brands github >}} &nbsp;&nbsp;[**https://github.com/ahasverus**](https://github.com/ahasverus)
+
+:::
+
 :::
 
 ::::

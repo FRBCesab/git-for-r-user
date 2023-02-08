@@ -6,7 +6,9 @@
 <script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.2.269">
 
   <title>index</title>
@@ -318,23 +320,43 @@
     }
   </style>
 </head>
-<body class="quarto-light">
+<body class="quarto-dark">
   <div class="reveal">
     <div class="slides">
 
 
 <section class="slide level2">
 
+<div class="cell">
+<style type="text/css">
+.zmaller {
+font-size: 14px;
+}
+.right {
+text-align: right;
+font-size: 18px;
+}
+</style>
+</div>
 <!-- Title slide -->
-<p><br> <br></p>
+<p><br> <br> <br></p>
 <div class="columns">
 <div class="column" style="width:30%;">
-<p><a href="./img/git-logo.png"></a></p>
+<p><img data-src="./img/git-logo.png"></p>
 </div><div class="column" style="width:70%;">
-<section id="a-gentle-introduction-to-git-for-r-users" class="slide level2">
-<h2>A gentle introduction to git for R users</h2>
-<p><br></p>
-<h5 id="nicolas-casajus">Nicolas Casajus</h5>
+<section id="an-introduction-to-git-for-r-users" class="slide level2 smaller">
+<h2>An introduction to git for R users</h2>
+<hr>
+<div class="right">
+<p>February 2023</p>
+</div>
+<p><strong>Nicolas Casajus</strong></p>
+<div class="zmaller">
+<p><i class="fa-solid fa-user" aria-label="user"></i> &nbsp;&nbsp;<a href="https://nicolascasajus.fr"><strong>Senior Data Scientist</strong></a></p>
+<p><i class="fa-solid fa-house" aria-label="house"></i> &nbsp;<a href="https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/"><strong>FRB-CESAB</strong></a></p>
+<p><i class="fa-solid fa-envelope" aria-label="envelope"></i> &nbsp;&nbsp;<a href="#/"><strong>nicolas.casajus@fondationbiodiversite.fr</strong></a></p>
+<p><i class="fa-brands fa-github" aria-label="github"></i> &nbsp;&nbsp;<a href="https://github.com/ahasverus"><strong>https://github.com/ahasverus</strong></a></p>
+</div>
 </section>
 </div>
 </div>
@@ -344,7 +366,7 @@
 <p>Work in progress…</p>
 
 <img src="img/cesab-logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
-<p>A gentle introduction to git for R users</p>
+<p><a href="https://github.com/frbcesab/git-for-r-user/" class="uri">https://github.com/frbcesab/git-for-r-user/</a></p>
 </div>
 </section>
     </div>
@@ -558,6 +580,44 @@
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

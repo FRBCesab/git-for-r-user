@@ -1,4 +1,4 @@
-# :mortar_board: Git for R User
+# :mortar_board: Git for R User <img src="img/presentation-logo.png" height="120" align="right"/>
 
 
 
